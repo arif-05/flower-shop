@@ -255,3 +255,20 @@ background: rgba(39, 39, 39, 0.05);
     /* outline: 1px dotted green; */
     outline: none;
 }
+
+footer{
+    background: rgb(17, 16, 16);
+}
+.footer-content{
+    padding: 120px 0px;
+}
+
+.footer-content h2{
+    color: rgb(229, 84, 115);
+    text-align: center;
+}
+.footer-content p{
+    margin: 10px 10%;
+    color: rgba(255, 255, 255, 0.9) ;
+    text-align: center;
+}
