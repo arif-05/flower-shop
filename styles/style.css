@@ -21,9 +21,18 @@ text-align: left;
 }
 
 button{
-    border-radius: 8px;
+ border-radius: 8px;
 
 background: rgb(229, 84, 115);
+color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+padding: 15px 20px;
+/* margin-top: 20px; */
 }
 
 
@@ -49,7 +58,7 @@ header{
     
 }
 
-.banner .banner-text h1{
+.banner .banner-text h2{
     color: rgb(39, 39, 39);
 font-family: Lato;
 font-size: 60px;
@@ -58,4 +67,12 @@ line-height: 96px;
 letter-spacing: 0%;
 text-align: left;
 
+}
+.banner .banner-text *{
+    margin-bottom: 32px;
+}
+
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
 }
